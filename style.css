@@ -1,11 +1,12 @@
 
 @font-face {
-    font-family: 'made_soulmazeregular';
-    src: url('fonts/made_soulmaze_personal_use-webfont.woff2') format('woff2'),
-         url('fonts/made_soulmaze_personal_use-webfont.woff') format('woff');
+    font-family: 'soraregular';
+    src: url('fonts/sora-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/sora-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
+}
 }
 
 :root{
@@ -19,11 +20,11 @@
     
     cursor: pointer;
     border: 1px solid #ff7300;
-    background-color: white;
+    background-color: transparent;
     height: 50px;
     width: 100px;
     color: #ff7300;
-    font-family: 'made_soulmazeregular';
+    font-family: 'soraregular';
     font-size: 14px;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 
@@ -31,8 +32,8 @@
     
     position:relative;
     transition: .5s ease;
-    top: 50px;
-    left: 1300px;
+    top: 0px;
+    left: 1450px;
     
     
     
@@ -52,11 +53,11 @@
 
     cursor: pointer;
     border: 1px solid #ff7300;
-    background-color: white;
+    background-color: transparent;
     height: 50px;
     width: 100px;
     color: #ff7300;
-    font-family: 'made_soulmazeregular';
+    font-family: 'soraregular';
     font-size: 14px;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 
@@ -64,8 +65,8 @@
     
     position:relative;
     transition: .5s ease;
-    top: 50px;
-    left: 1100px;
+    top: 0px;
+    left: 1300px;
     
 
 }
@@ -85,11 +86,11 @@
 
     cursor: pointer;
     border: 1px solid #ff7300;
-    background-color: white;
+    background-color: transparent;
     height: 50px;
     width: 100px;
     color: #ff7300;
-    font-family: 'made_soulmazeregular';
+    font-family: 'soraregular';
     font-size: 14px;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 
@@ -97,8 +98,8 @@
     
     position:relative;
     transition: .5s ease;
-    top: 50px;
-    left: 1400px;
+    top: 0px;
+    left: 15px;
     
 
 }
@@ -110,7 +111,4 @@
 }
 #wot{
     position: absolute;
-}
-body{
-    background-color: rgb(203, 255, 238);
 }
