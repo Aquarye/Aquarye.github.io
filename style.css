@@ -14,9 +14,12 @@
 #hey{
     color: rgb(81, 255, 0);
 }
-#tile{
-    color: orange;
-    margin: 0px;
+#bar{
+    background-color: orange;
+    height: 50px;
+    width: 1920px;
+    position: relative;
+   
 }
 #about{
     
@@ -27,15 +30,14 @@
     height: 50px;
     width: 100px;
     color: #ff7300;
-    font-family: 'made_soulmazeregular';
+    font-family: Verdana,Geneva,sans-serif; 
     font-size: 14px;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-
+   
 
     
     position:relative;
     transition: .5s ease;
-    top: 50px;
+    top: 0px;
     left: 1300px;
     
     
@@ -49,7 +51,7 @@
 }
 #home{
 
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+   
     position:relative;
     transition: .5s ease;
     top: 0px;
@@ -60,15 +62,15 @@
     height: 50px;
     width: 100px;
     color: #ff7300;
-    font-family: 'made_soulmazeregular';
+    font-family: Verdana,Geneva,sans-serif; 
     font-size: 14px;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    
 
 
     
     position:relative;
     transition: .5s ease;
-    top: 50px;
+    top: 0px;
     left: 1100px;
     
 
@@ -82,7 +84,7 @@
 
 #contacts{
 
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    font-family: Verdana,Geneva,sans-serif; 
     position:relative;
     transition: .5s ease;
     top: 0px;
@@ -93,15 +95,15 @@
     height: 50px;
     width: 100px;
     color: #ff7300;
-    font-family: 'made_soulmazeregular';
+    font-family: Verdana,Geneva,sans-serif; 
     font-size: 14px;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+   
 
 
     
     position:relative;
     transition: .5s ease;
-    top: 50px;
+    top: 0px;
     left: 1400px;
     
 
@@ -112,9 +114,26 @@
     -ms-transform: scale(var(--scel));
     -o-transform: scale(var(--scel));
 }
+#logo{
+    transform: scale(0.13);
+    position: absolute;
+    bottom: 73.3%;
+    right: 62%;
+}
 #wot{
     position: absolute;
+    
+}#wut{
+    position: absolute;
+    
+}
+#wip{
+    position: absolute;
+    
 }
 body{
     background-color: rgb(203, 255, 238);
+    margin: 0; /* Most important shit of all */
+}head{
+    background-color: orange;
 }
