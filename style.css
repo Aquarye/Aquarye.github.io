@@ -18,11 +18,11 @@
     
     
     cursor: pointer;
-    border: 1px solid #3498db;
+    border: 1px solid #ff7300;
     background-color: transparent;
     height: 50px;
     width: 100px;
-    color: #3498db;
+    color: #ff7300;
     font-family: 'made_soulmazeregular';
     font-size: 14px;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
@@ -51,11 +51,11 @@
     top: 0px;
 
     cursor: pointer;
-    border: 1px solid #00ff22;
+    border: 1px solid #ff7300;
     background-color: transparent;
     height: 50px;
     width: 100px;
-    color: #00ff22;
+    color: #ff7300;
     font-family: 'made_soulmazeregular';
     font-size: 14px;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
@@ -70,6 +70,39 @@
 
 }
 #home:hover{
+    -webkit-transform: scale(var(--scel));/*Grows in size like Angry Birds button*/
+    -moz-transform: scale(var(--scel));
+    -ms-transform: scale(var(--scel));
+    -o-transform: scale(var(--scel));
+}
+
+#contacts{
+
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    position:relative;
+    transition: .5s ease;
+    top: 0px;
+
+    cursor: pointer;
+    border: 1px solid #ff7300;
+    background-color: transparent;
+    height: 50px;
+    width: 100px;
+    color: #ff7300;
+    font-family: 'made_soulmazeregular';
+    font-size: 14px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+
+
+    
+    position:relative;
+    transition: .5s ease;
+    top: 0px;
+    left: 1500px;
+    
+
+}
+#contacts:hover{
     -webkit-transform: scale(var(--scel));/*Grows in size like Angry Birds button*/
     -moz-transform: scale(var(--scel));
     -ms-transform: scale(var(--scel));
