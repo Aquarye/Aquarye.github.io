@@ -17,7 +17,7 @@
 #bar{
     background-color: orange;
     height: 50px;
-    width: 1920px;
+    width: 100%;
     position: relative;
    
 }
@@ -117,7 +117,7 @@
 #logo{
     transform: scale(0.13);
     position: absolute;
-    bottom: 73.3%;
+    bottom: 73.7%;
     right: 62%;
 }
 #wot{
