@@ -15,6 +15,13 @@
 #hey{
     color: rgb(81, 255, 0);
 }
+#bar{
+    background-color: orange;
+    height: 50px;
+    width: 100%;
+    position: relative;
+   
+}
 #about{
     
     
@@ -24,16 +31,23 @@
     height: 50px;
     width: 100px;
     color: #ff7300;
+<<<<<<< HEAD
     font-family: 'soraregular';
+=======
+    font-family: Verdana,Geneva,sans-serif; 
+>>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
     font-size: 14px;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-
+   
 
     
     position:relative;
     transition: .5s ease;
     top: 0px;
+<<<<<<< HEAD
     left: 1450px;
+=======
+    left: 1300px;
+>>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
     
     
     
@@ -46,7 +60,7 @@
 }
 #home{
 
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+   
     position:relative;
     transition: .5s ease;
     top: 0px;
@@ -57,16 +71,24 @@
     height: 50px;
     width: 100px;
     color: #ff7300;
+<<<<<<< HEAD
     font-family: 'soraregular';
+=======
+    font-family: Verdana,Geneva,sans-serif; 
+>>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
     font-size: 14px;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    
 
 
     
     position:relative;
     transition: .5s ease;
     top: 0px;
+<<<<<<< HEAD
     left: 1300px;
+=======
+    left: 1100px;
+>>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
     
 
 }
@@ -79,7 +101,7 @@
 
 #contacts{
 
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    font-family: Verdana,Geneva,sans-serif; 
     position:relative;
     transition: .5s ease;
     top: 0px;
@@ -90,16 +112,24 @@
     height: 50px;
     width: 100px;
     color: #ff7300;
+<<<<<<< HEAD
     font-family: 'soraregular';
+=======
+    font-family: Verdana,Geneva,sans-serif; 
+>>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
     font-size: 14px;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+   
 
 
     
     position:relative;
     transition: .5s ease;
     top: 0px;
+<<<<<<< HEAD
     left: 15px;
+=======
+    left: 1400px;
+>>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
     
 
 }
@@ -109,6 +139,29 @@
     -ms-transform: scale(var(--scel));
     -o-transform: scale(var(--scel));
 }
+#logo{
+    transform: scale(0.13);
+    position: absolute;
+    bottom: 73.7%;
+    right: 62%;
+}
 #wot{
     position: absolute;
+<<<<<<< HEAD
+=======
+    
+}#wut{
+    position: absolute;
+    
+}
+#wip{
+    position: absolute;
+    
+}
+body{
+    background-color: rgb(203, 255, 238);
+    margin: 0; /* Most important shit of all */
+}head{
+    background-color: orange;
+>>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
 }
