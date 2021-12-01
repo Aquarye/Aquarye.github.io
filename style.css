@@ -1,12 +1,11 @@
 
 @font-face {
-    font-family: 'soraregular';
-    src: url('fonts/sora-variablefont_wght-webfont.woff2') format('woff2'),
-         url('fonts/sora-variablefont_wght-webfont.woff') format('woff');
+    font-family: 'made_soulmazeregular';
+    src: url('fonts/made_soulmaze_personal_use-webfont.woff2') format('woff2'),
+         url('fonts/made_soulmaze_personal_use-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
-}
 }
 
 :root{
@@ -27,15 +26,11 @@
     
     cursor: pointer;
     border: 1px solid #ff7300;
-    background-color: transparent;
+    background-color: white;
     height: 50px;
     width: 100px;
     color: #ff7300;
-<<<<<<< HEAD
-    font-family: 'soraregular';
-=======
     font-family: Verdana,Geneva,sans-serif; 
->>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
     font-size: 14px;
    
 
@@ -43,11 +38,7 @@
     position:relative;
     transition: .5s ease;
     top: 0px;
-<<<<<<< HEAD
-    left: 1450px;
-=======
     left: 1300px;
->>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
     
     
     
@@ -67,15 +58,11 @@
 
     cursor: pointer;
     border: 1px solid #ff7300;
-    background-color: transparent;
+    background-color: white;
     height: 50px;
     width: 100px;
     color: #ff7300;
-<<<<<<< HEAD
-    font-family: 'soraregular';
-=======
     font-family: Verdana,Geneva,sans-serif; 
->>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
     font-size: 14px;
     
 
@@ -84,11 +71,7 @@
     position:relative;
     transition: .5s ease;
     top: 0px;
-<<<<<<< HEAD
-    left: 1300px;
-=======
     left: 1100px;
->>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
     
 
 }
@@ -108,15 +91,11 @@
 
     cursor: pointer;
     border: 1px solid #ff7300;
-    background-color: transparent;
+    background-color: white;
     height: 50px;
     width: 100px;
     color: #ff7300;
-<<<<<<< HEAD
-    font-family: 'soraregular';
-=======
     font-family: Verdana,Geneva,sans-serif; 
->>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
     font-size: 14px;
    
 
@@ -125,11 +104,7 @@
     position:relative;
     transition: .5s ease;
     top: 0px;
-<<<<<<< HEAD
-    left: 15px;
-=======
     left: 1400px;
->>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
     
 
 }
@@ -147,8 +122,6 @@
 }
 #wot{
     position: absolute;
-<<<<<<< HEAD
-=======
     
 }#wut{
     position: absolute;
@@ -163,5 +136,4 @@ body{
     margin: 0; /* Most important shit of all */
 }head{
     background-color: orange;
->>>>>>> 507b539334539a2f2acc2f710270a7f89d7f9e24
 }
