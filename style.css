@@ -10,13 +10,14 @@
 
 :root{
     --scel: 1.1;
+    --colour: #ff7300;
 }
 #hey{
     color: rgb(81, 255, 0);
 }
 #bar{
     background-color: orange;
-    height: 50px;
+    height: 65px;
     width: 100%;
     position: relative;
    
@@ -25,11 +26,11 @@
     
     
     cursor: pointer;
-    border: 1px solid #ff7300;
+    border: 1px solid var(--colour);
     background-color: white;
-    height: 50px;
+    height: 65px;
     width: 100px;
-    color: #ff7300;
+    color: var(--colour);
     font-family: Verdana,Geneva,sans-serif; 
     font-size: 14px;
    
@@ -57,11 +58,11 @@
     top: 0px;
 
     cursor: pointer;
-    border: 1px solid #ff7300;
+    border: 1px solid var(--colour);
     background-color: white;
-    height: 50px;
+    height: 65px;
     width: 100px;
-    color: #ff7300;
+    color: var(--colour);
     font-family: Verdana,Geneva,sans-serif; 
     font-size: 14px;
     
@@ -90,11 +91,11 @@
     top: 0px;
 
     cursor: pointer;
-    border: 1px solid #ff7300;
+    border: 1px solid var(--colour);
     background-color: white;
-    height: 50px;
+    height: 65px;
     width: 100px;
-    color: #ff7300;
+    color: var(--colour);
     font-family: Verdana,Geneva,sans-serif; 
     font-size: 14px;
    
@@ -117,8 +118,8 @@
 #logo{
     transform: scale(0.13);
     position: absolute;
-    bottom: 73.7%;
-    right: 62%;
+    bottom: 38.5%;
+    right: 40%;
 }
 #wot{
     position: absolute;
@@ -132,7 +133,7 @@
     
 }
 body{
-    background-color: rgb(104, 103, 114);
+    background-color: #F7CAC9;
     margin: 0; /* Most important shit of all */
 }head{
     background-color: orange;
